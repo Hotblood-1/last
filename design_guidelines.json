@@ -1,0 +1,182 @@
+{
+  "theme": "Light",
+  "archetype": "3 (Pastel & Soft) mixed with 4 (Swiss & High-Contrast) for Premium Academic E-commerce",
+  "colors": {
+    "primary": "#0052FF",
+    "primary_hover": "#0040CC",
+    "secondary": "#E0E7FF",
+    "background": "#F8FAFC",
+    "surface": "#FFFFFF",
+    "text_main": "#0F172A",
+    "text_muted": "#64748B",
+    "border": "#E2E8F0",
+    "accent_success": "#10B981",
+    "accent_warning": "#F59E0B",
+    "accent_danger": "#EF4444"
+  },
+  "typography": {
+    "headings": {
+      "family": "Outfit, sans-serif",
+      "weights": ["600", "700"],
+      "tracking": "tracking-tight"
+    },
+    "body": {
+      "family": "Satoshi, DM Sans, sans-serif",
+      "weights": ["400", "500"]
+    },
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900",
+      "h3": "text-xl sm:text-2xl font-semibold text-slate-900",
+      "body": "text-base text-slate-600 leading-relaxed",
+      "small": "text-sm text-slate-500"
+    }
+  },
+  "spacing": {
+    "general": "Use generous spacing. p-6 or p-8 for cards. gap-6 or gap-8 for grids.",
+    "sections": "py-20 md:py-32 for main sections to give breathing room."
+  },
+  "layout_patterns": {
+    "grids": "Use mobile-first grid-cols-1, md:grid-cols-2 lg:grid-cols-4 for product grids.",
+    "alignment": "Left-align dense text and product info for readability.",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  },
+  "components": {
+    "cards": {
+      "border_radius": "rounded-2xl",
+      "background": "bg-white",
+      "border": "border border-slate-200/60",
+      "shadow": "shadow-sm hover:shadow-xl transition-shadow duration-300",
+      "padding": "p-0 for product cards (image full width top), p-6 for textual cards"
+    },
+    "buttons": {
+      "border_radius": "rounded-full",
+      "primary": "bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 transition-all active:scale-95",
+      "secondary": "bg-blue-50 hover:bg-blue-100 text-blue-700 font-medium px-6 py-3 transition-all active:scale-95",
+      "outline": "border-2 border-slate-200 hover:border-blue-600 text-slate-700 hover:text-blue-600 px-6 py-3 transition-all active:scale-95"
+    },
+    "inputs": {
+      "border_radius": "rounded-xl",
+      "style": "bg-slate-50 border border-slate-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent px-4 py-3"
+    },
+    "badges": {
+      "border_radius": "rounded-full",
+      "style": "px-3 py-1 text-xs font-semibold bg-blue-100 text-blue-700"
+    }
+  },
+  "animations": {
+    "hover": "Hover lifts: -translate-y-1, shadow-lg. Transition duration 300ms ease-out.",
+    "page_load": "Fade up entrance: translate-y-4 to translate-y-0, opacity 0 to 1.",
+    "cart": "Slide in from right for cart drawer. Staggered list items."
+  },
+  "icons_library": "lucide-react",
+  "accessibility": {
+    "contrast": "Ensure all text meets APCA/WCAG AA standards. Blue-600 on White is safe.",
+    "focus": "focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2",
+    "test_ids": "All interactive elements MUST include data-testid (e.g., data-testid='add-to-cart-button')"
+  },
+  "media": {
+    "hero": {
+      "url": "https://images.pexels.com/photos/8472969/pexels-photo-8472969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Teenager studying at home, focused, representing Indian students."
+    },
+    "products": [
+      {
+        "category": "Notebook",
+        "name": "Premium Blank Journal",
+        "price": 299,
+        "mrp": 399,
+        "discount": 25,
+        "url": "https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwc3RhdGlvbmVyeSUyMHBlbnMlMjBub3RlYm9va3N8ZW58MHx8fHwxNzgyMjAzNzY5fDA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "Notebook",
+        "name": "Pastel Ruled Notebooks",
+        "price": 349,
+        "mrp": 499,
+        "discount": 30,
+        "url": "https://images.unsplash.com/photo-1512279093314-5926a353720c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHw0fHxwcmVtaXVtJTIwc3RhdGlvbmVyeSUyMHBlbnMlMjBub3RlYm9va3N8ZW58MHx8fHwxNzgyMjAzNzY5fDA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "Notebook",
+        "name": "Classic Blue Notebook",
+        "price": 199,
+        "mrp": 250,
+        "discount": 20,
+        "url": "https://images.unsplash.com/photo-1647559709298-c0e3dcb47092?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxwcmVtaXVtJTIwc3RhdGlvbmVyeSUyMHBlbnMlMjBub3RlYm9va3N8ZW58MHx8fHwxNzgyMjAzNzY5fDA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "Pens",
+        "name": "Minimalist Pen Set",
+        "price": 149,
+        "mrp": 199,
+        "discount": 25,
+        "url": "https://images.pexels.com/photos/5594317/pexels-photo-5594317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "category": "Water Bottle",
+        "name": "Glass Desk Bottle",
+        "price": 499,
+        "mrp": 799,
+        "discount": 37,
+        "url": "https://images.unsplash.com/photo-1566557087503-b839ce6e5aa0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwyfHxyZXVzYWJsZSUyMHdhdGVyJTIwYm90dGxlJTIwZGVza3xlbnwwfHx8fDE3ODIyMDM3Njl8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "Water Bottle",
+        "name": "White Thermal Bottle",
+        "price": 899,
+        "mrp": 1299,
+        "discount": 30,
+        "url": "https://images.unsplash.com/photo-1620911626955-c6227a886383?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHxyZXVzYWJsZSUyMHdhdGVyJTIwYm90dGxlJTIwZGVza3xlbnwwfHx8fDE3ODIyMDM3Njl8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "LCD Tablet",
+        "name": "Digital Writing Pad Pro",
+        "price": 399,
+        "mrp": 999,
+        "discount": 60,
+        "url": "https://images.unsplash.com/photo-1649331593153-7575e5cd3c6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwZHJhd2luZyUyMHRhYmxldCUyMHNjcmVlbnxlbnwwfHx8fDE3ODIyMDM3Njl8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "LCD Tablet",
+        "name": "Student Sketch Tablet",
+        "price": 449,
+        "mrp": 1099,
+        "discount": 59,
+        "url": "https://images.unsplash.com/photo-1599252441131-5aafffcf7740?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZHJhd2luZyUyMHRhYmxldCUyMHNjcmVlbnxlbnwwfHx8fDE3ODIyMDM3Njl8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "Geometry Box",
+        "name": "Precision Compass Set",
+        "price": 249,
+        "mrp": 350,
+        "discount": 28,
+        "url": "https://images.unsplash.com/photo-1764948620467-2b08f6843dd6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxnZW9tZXRyeSUyMGNvbXBhc3MlMjBydWxlcnxlbnwwfHx8fDE3ODIyMDM3NzV8MA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "Geometry Box",
+        "name": "School Essentials Kit",
+        "price": 199,
+        "mrp": 299,
+        "discount": 33,
+        "url": "https://images.pexels.com/photos/5412403/pexels-photo-5412403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      }
+    ],
+    "abstract_backgrounds": [
+      {
+        "url": "https://images.pexels.com/photos/6549587/pexels-photo-6549587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Library study background for about or contact pages."
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Implement the UI using a modern Premium Academic theme. Use pure white backgrounds and deep cobalt blue accents.",
+    "Follow the rounded-2xl border-radius for cards and rounded-full for buttons as explicitly requested.",
+    "Do NOT use placeholder images. Use ONLY the URLs provided in the media section of this JSON.",
+    "Ensure all interactive elements (buttons, inputs, links, cart actions) have appropriate data-testid attributes.",
+    "Build the hero section with a strong 'Stationery that studies harder with you' message. Left align or center based on visual balance. Ensure good contrast.",
+    "Populate the Popular Products section with the exact 10 sample products provided in the media arrays.",
+    "Implement clear Shadcn UI driven forms for the checkout and OTP flows.",
+    "Include hover states (-translate-y-1 and shadow-lg) on product cards to make the UI feel premium and tactile."
+  ]
+}
